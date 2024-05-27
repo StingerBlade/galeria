@@ -1,34 +1,35 @@
-.contend0{
-    width: 100%;
-    height: 100%;
-}
 .contend01{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    border: 2px solid black;
+    margin: 10px;
     
     
 }
 .contend001{
     align-self: center;
     width: 300px;
-    background-color: #4346df;
+    /* background-color: #4346df;*/
+    border: 2px solid black;
     
 }
 .contend002{
-    background-color: #4346df;
+    /* background-color: #4346df;*/
+    border: 2px solid black;
     
 }
-.contend02{
-    width:100%;
-    align-self: center;
-    
-    background-color: #4346df;
+.contend02 {
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto; /* Esto centrará el div horizontalmente */
+    display: flex; /* Necesario para centrar los elementos dentro del div */
+    justify-content: center; /* Centrará los elementos horizontalmente dentro del div */
+    align-items: center; /* Centrará los elementos verticalmente dentro del div */
+    flex-wrap: wrap;
 }
-.fotosjuntas{
 
-}
 .icono{
      
     border-radius: 50%;
@@ -38,11 +39,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border: 2px solid black;
+    margin: 10px;
  
 }
 
 .autor{
-    align-self: center;    
+    text-align: center;
+    border: 2px solid black;
+    width: 10%;
+    margin: 0 auto;
 }
 h1{
     font-size: 60px;
@@ -51,7 +57,21 @@ h1{
 }
 
 footer{
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    alt: 150px;
+    height: 50px;
     justify-content: space-between;
+    border: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 20px;
+    
+}
+
+.contact_help{
+    flex-grow: 1; /* Permite que los divs crezcan para ocupar el espacio disponible */
+    display: flex; /* Utiliza flex para centrar el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100%; /* Asegura que el div tenga la misma altura que el footer */
 }
